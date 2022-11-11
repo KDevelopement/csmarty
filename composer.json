@@ -1,0 +1,38 @@
+{
+    "name": "kseven/csmarty",
+    "type": "library",
+    "description": "Smarty for CodeIgniter 4.x",
+    "keywords": ["smarty", "codeigniter", "php", "library", "templating", "k7", "kSeven", "KS7ven", "KSev7n"],
+    "license": "LGPL-3.0",
+    "homepage": "https://github.com/KS7ven/csmarty",
+    "support": {
+        "issues": "https://github.com/KS7ven/csmarty/issues",
+        "source": "https://github.com/KS7ven/csmarty"
+    },
+    "authors": [
+        {
+            "name": "K'Seven",
+            "email": "anjsuporte@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "smarty/smarty": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^7.5",
+        "smarty/smarty-lexer": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CSmarty\\": "src"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "process-timeout": 3600
+    }
+}
